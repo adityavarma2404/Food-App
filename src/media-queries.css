@@ -1,0 +1,234 @@
+@media screen and (min-width: 360px) and (max-width: 780px) {
+    .header {
+        height: 4em;
+        padding: 0 2em;
+        position: relative;
+    }
+
+    .header_options {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.activeBar .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.activeBar .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.activeBar .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .header_option {
+        margin-right: 0;
+    }
+
+    .custom_section .custom_section_dummy_div:first-child {
+        display: none;
+    }
+
+    .custom_section_dummy_div {
+        height: 5em;
+    }
+
+    .carousel_banner_item_description {
+        display: none;
+    }
+
+    .carousel_description_container {
+        margin-bottom: -1.3em;
+    }
+
+    .carousel_banner_item_name {
+        font-size: 4.2vw;
+    }
+
+    .carousel_banner_item_description {
+        font-size: 2.3vw;
+    }
+
+    .recommendations_image {
+        width: 60%;
+    }
+
+    .menu_button {
+        font-size: 15px;
+    }
+
+    .menu_list {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu_item_container {
+        justify-content: center;
+    }
+
+    .Cheff_section_sub_container {
+        width: 70%;
+        background-color: var(--blue6);
+        padding: 4em 0;
+        border-top-right-radius: 4em;
+        border-bottom-left-radius: 3em;
+    }
+
+    .Cheff_section_sub_container h1 {
+        font-size: 1.5em;
+    }
+
+    .Cheff_profile_pic_container {
+        width: 70%;
+    }
+
+    .Cheff_profile_pic_container .Cheff_profile_pic:first-child {
+        margin-top: 0;
+    }
+
+    .Cheff_profile_pic {
+        margin-top: 20px;
+    }
+
+    .Cheff_profile_pic_quote {
+        font-size: 15px;
+    }
+
+    .footer_content {
+        width: 100%;
+        padding: 2em 1em;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer_list li:first-child {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    }
+
+    .footer_list li:not(:first-child) {
+        font-size: 0.8em;
+    }
+
+    .copyright_text span {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .headerHelp_content {
+        width: 80%;
+        padding: 10px;
+    }
+
+    .cart_container {
+        width: 90%;
+    }
+
+    .cart_side_section {
+        border-right: 2px solid var(--blue3);
+        width: 25%;
+    }
+
+    .cart_items {
+        width: 75%;
+        min-height: 60vh;
+    }
+
+    .cart_side_options {
+        width: 100%;
+        height: 3em;
+    }
+
+    .cart_empty_image {
+        width: 40%;
+    }
+
+    .cartItem_h5 {
+        font-size: 14px;
+    }
+
+    .cart_home_btn {
+        padding: 0 30px;
+    }
+
+    .cart_accordion {
+        width: 85%;
+    }
+
+    .cartItems_name_price {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cartItems_font {
+        font-size: 14px;
+    }
+
+    .cart_items_subcontainer {
+        width: 100%;
+        padding: 10px 10px;
+    }
+
+    .cart_items_checkout_container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cart_items_checkout_container button {
+        margin-top: 10px;
+    }
+
+    .cartForm_address_container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .cartForm_address {
+        width: 70%;
+    }
+
+    .cartForm_field {
+        width: 70%;
+    }
+
+    .cart_items {
+        min-height: 50vh;
+      }
+    }
+    
+    @media screen and (min-width: 781px) and (max-width: 1024px) {
+        
+        
+        .headerHelp_content {
+            width: 50%;
+        }
+        
+        .cart_container {
+            width: 80%;
+        }
+        
+        .cart_accordion {
+            width: 70%;
+        }
+        
+        
+        .cartItems_name_price {
+            display: flex;
+        flex-direction: column;
+    }
+    
+    .menu_item_container {
+        justify-content: center;
+    }
+    
+    .cart_items {
+        min-height: 50vh;
+      }
+}

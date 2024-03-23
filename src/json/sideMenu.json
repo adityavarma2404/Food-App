@@ -1,0 +1,55 @@
+{
+
+    "sideOptions":[
+        {
+            "url":"https://assets.box8.co.in/category-icon/web/category/118",
+            "menuValue":"mini_meals",
+            "menuName":"Mini Meals"
+        },
+        {
+            "url":"https://assets.box8.co.in/category-icon/web/category/198",
+            "menuValue":"desi_box",
+            "menuName":"Desi Box"
+        },
+        {
+            "url":"https://assets.box8.co.in/category-icon/web/category/382",
+            "menuValue":"dum_biryani",
+            "menuName":"Dum Biryani"
+        },
+        {
+            "url":"https://assets.box8.co.in/category-icon/web/category/200",
+            "menuValue":"main_course",
+            "menuName":"Main Course"
+        },
+        {
+            "url":"https://assets.box8.co.in/category-icon/web/category/372",
+            "menuValue":"paratha_rolls",
+            "menuName":"Paratha Rolls"
+        },
+        {
+            "url":"https://assets.box8.co.in/category-icon/web/category/405",
+            "menuValue":"desi_sandwitches",
+            "menuName":"Desi Sandwitches"
+        },
+        {
+            "url":"https://assets.box8.co.in/category-icon/web/category/282",
+            "menuValue":"veg_starters",
+            "menuName":"Veg Starters"
+        },
+        {
+            "url":"https://assets.box8.co.in/category-icon/web/category/283",
+            "menuValue":"checken_starters",
+            "menuName":"Chicken Starters"
+        },
+        {
+            "url":"https://assets.box8.co.in/category-icon/web/category/12",
+            "menuValue":"sides",
+            "menuName":"Sides & Drinks"
+        },
+        {
+            "url":"https://assets.box8.co.in/category-icon/web/category/82",
+            "menuValue":"menu_button",
+            "menuName":"Desserts"
+        }
+    ]
+}

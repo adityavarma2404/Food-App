@@ -1,0 +1,276 @@
+{
+    "mini_meals":[
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/1641",
+            "type":"veg",
+            "item":"Dilli Rajma Mini Meal",
+            "description":"Authentic Rajma inspired from the streets of Delhi + Paratha/Rice + Salad. Comfort food at it's best.",
+            "price":219
+        },
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/1642",
+            "type":"veg",
+            "item":"Amritsari Chole Mini Meal",
+            "description":"Authentic Amritsari chole + Paratha/Rice + Salad. Authentic flavors from the legendary chefs of Amritsar!",
+            "price":219
+        },
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/1640",
+            "type":"veg",
+            "item":"Dal Makhni Mini Meal",
+            "description":"Dal Makhni slow cooked overnight with whole spices & fresh cream + Paratha/Rice + Salad. A delightful meal for 1.",
+            "price":219
+        },
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/3950",
+            "type":"veg",
+            "item":"Banarasi Dum Aloo Mini Meal",
+            "description":"Dum aloo cooked in authentic Banarasi style curry + Paratha/Rice + Salad. A meal that keeps you wanting for more.",
+            "price":219
+        },
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/1644",
+            "type":"veg",
+            "item":"Subz Kadhai Mini Meal",
+            "description":"Mix of veggies + paneer cooked in a desi masala curry + Paratha/Rice + Salad. Subz-e-best! ",
+            "price":239
+        },
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/6218",
+            "type":"nonveg",
+            "item":"Homestyle Egg Curry Mini Meal",
+            "description":"Homestyle curry with perfectly boiled eggs + Paratha/Rice + Salad. Bet you'll love it a little egg-stra!",
+            "price":229
+        },
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/1649",
+            "type":"nonveg",
+            "item":"Butter Chicken Mini Meal",
+            "description":"The classic Butter Chicken curry: rich, creamy, NOT sweet + Paratha/Rice + Salad. Impossible to resist this one.",
+            "price":269
+        },
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/7911",
+            "type":"nonveg",
+            "item":"Homestyle Chicken Mini Meal",
+            "description":"Tender chicken slow-cooked with masalas & homestyle onion-tomato curry + Paratha/Rice + Salad.",
+            "price":269
+        },
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/1957",
+            "type":"nonveg",
+            "item":"Chicken Tikka Masala Mini Meal",
+            "description":"Grilled chicken cooked in punjabi masala curry + Paratha/Rice + Salad. A perfect balance between spicy & tasty.",
+            "price":269
+        },
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/1956",
+            "type":"nonveg",
+            "item":"Kadhai Chicken Mini Meal",
+            "description":"Spicy curry & soft chicken, cooked homestyle with whole Indian spices + Paratha/Rice + Salad. A taste you won't forget!",
+            "price":269
+        }
+    ],
+    "desi_box":[
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/5360",
+            "type":"veg",
+            "item":"Desi Dal Tadka Rice Box",
+            "description":"Dal Tadka + Rice + Salad + Mint Chutney + Garlic Yogurt. Dal Chawal lovers, where you at?",
+            "price":199
+        },
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/5357",
+            "type":"veg",
+            "item":"Punjabi Kadhi Pakoda Rice Box",
+            "description":"Tangy, creamy, savoury Punjabi Kadhi with onion Pakodas + Rice + Salad + Mint Chutney + Garlic Yogurt. Truly relishing!",
+            "price":199
+        },
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/3738",
+            "type":"veg",
+            "item":"Dilli Wale Rajma Chawal Box",
+            "description":"Really good Rajma served with Rice + Salad + Mint chutney + Garlic yogurt. Comfort meal at it's best!",
+            "price":219       
+        },
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/3734",
+            "type":"veg",
+            "item":"Paneer Makhni Rice Box",
+            "description":"Amazing combination! Paneer Makhni served with Rice + Salad + Mint chutney + Garlic yogurt.",
+            "price":269
+        },
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/3724",
+            "type":"veg",
+            "item":"Paneer Tikka Masala Rice Box",
+            "description":"Tender paneer cubes in a creamilicious gravy + Rice + Salad + Mint chutney + Garlic yogurt. Buttery delight!",
+            "price":269
+        },
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/3727",
+            "type":"nonveg",
+            "item":"Butter Chicken Rice Box",
+            "description":"Tandoori style chicken with Indulgent makhni curry; Served with Rice + Salad + Mint chutney + Garlic yogurt.",
+            "price":279
+        },
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/7914",
+            "type":"nonveg",
+            "item":"Homestyle Chicken Rice Box",
+            "description":"Tender chicken slow-cooked in a homestyle masala curry + Rice + Salad + Mint Chutney + Garlic Yogurt.",
+            "price":279
+        },
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/3728",
+            "type":"nonveg",
+            "item":"Chicken Tikka Rice Box",
+            "description":"Fire-grilled chicken tikka in masala curry; Served with Rice + Salad + Mint chutney + Garlic yogurt.",
+            "price":279
+        },
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/3731",
+            "type":"nonveg",
+            "item":"Chicken Lababdar Rice Box",
+            "description":"Succulent pieces of chicken in a creamy lababdar gravy served with long basmati Rice + Salad + Mint Chutney + Garlic yogurt. Desi & delicious!",
+            "price":279
+        },
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/3732",
+            "type":"nonveg",
+            "item":"Mughlai Chicken Rice Box",
+            "description":"Flavourful gravy with succulent chicken cubes & onion with Rice + Salad + Mint chutney + Garlic yogurt. Unbox deliciousness!",
+            "price":279
+        }
+    ],
+    "dum_biryani":[
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/7860",
+            "type":"veg",
+            "item":"Aloo Dum Biryani",
+            "description":"[Comes with Raita] Tender marinated potatoes, long & fragrant basmati rice, dum-cooked in a mix of spices. Rich flavours, dum-daar taste!",
+            "price":249
+        },
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/5329",
+            "type":"veg",
+            "item":"Subz Khazana Biryani",
+            "description":"Assorted fresh vegetables tossed in earthy spices, layered with long-grain basmati rice. A treasure of rich flavors.",
+            "price":269
+        },
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/5330",
+            "type":"veg",
+            "item":"Shahi Paneer Biryani",
+            "description":"Extra-long basmati rice cooked with loads of fire-grilled paneer tikkas & whole spices. Burst of flavours in every bite!",
+            "price":299
+        },
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/7866",
+            "type":"nonveg",
+            "item":"Egg Dum Biryani",
+            "description":"[Comes with Raita] 2 boiled eggs marinated in masalas, layered with basmati rice. A perfect symphony of flavours!",
+            "price":249
+        },
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/7863",
+            "type":"nonveg",
+            "item":"Chicken Tangdi Biryani",
+            "description":"[Comes with Raita, 1 Leg Pc with Bone] Tender chicken tangdi marinated in rustic spices, layered between basmati rice & slow-cooked on dum.",
+            "price":269
+        },
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/5331",
+            "type":"nonveg",
+            "item":"Chicken Tikka Biryani",
+            "description":"Smoked Chicken-Tikka slow cooked with fragrant basmati rice & whole spices. A truly novel experience! Served with Raita.",
+            "price":299
+        },
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/5335",
+            "type":"nonveg",
+            "item":"Murg Dum Biryani",
+            "description":"Succulent chicken (boneless) layered over aromatic super-long grain rice, slow cooked in quintessential dum style!",
+            "price":299
+        },
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/5328",
+            "type":"nonveg",
+            "item":"Mutton Dum Biryani",
+            "description":"Tender mutton chops marinated in whole spices, layered with ultra-long basmati rice: sealed & cooked on a low flame.",
+            "price":399
+        }
+    ],
+    "main_course":[
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/3831",
+            "type":"veg",
+            "item":"Ghee Tawa Paratha [Pack of 3]",
+            "description":"Garma-garam soft whole wheat parathas made in Desi ghee.",
+            "price":79
+        },
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/4445",
+            "type":"veg",
+            "item":"Masala Basmati Rice [400g - Family Pack]",
+            "description":" Extra-long grain basmati rice dum-cooked with whole spices & desi ghee.",
+            "price":169
+        },
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/3812",
+            "type":"veg",
+            "item":"Steamed Basmati Rice [400g-Family Pack]",
+            "description":"Extra-long grain basmati rice flavoured with mild & aromatic Desi herbs.",
+            "price":149
+        },
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/3806",
+            "type":"veg",
+            "item":"Masala Raita [100 ml]",
+            "description":"Perfect way to complement your feast. Thick masala raita with notes of Cumin & fresh Mint.",
+            "price":35
+        },
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/5359",
+            "type":"veg",
+            "item":"Desi Dal Tadka [500ml - Family Pack]",
+            "description":"Toor dal cooked in a Ghee tadka with desi spices & garlic. Can you smell the aroma already?",
+            "price":219
+        },
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/5358",
+            "type":"veg",
+            "item":"Punjabi Kadhi Pakoda [500ml - Family Pack]",
+            "description":"Tangy, creamy, savoury Kadhi with onion pakodas. Richly flavoured with spices & cooked in the traditional Punjabi style.",
+            "price":219
+        },
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/3827",
+            "type":"veg",
+            "item":"Dal Makhni [500ml - Family Pack]",
+            "description":"Our Dal makhni is slow cooked overnight with whole spices &amp; fresh cream. As traditional as it gets!",
+            "price":269
+        },
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/3830",
+            "type":"nonveg",
+            "item":"Butter Chicken [500ml - Family Pack]",
+            "description":"Our version of an indulgent butter chicken curry. It's rich, creamy & NOT sweet. It's the real deal.",
+            "price":399
+        },
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/3800",
+            "type":"nonveg",
+            "item":"Chicken Lababdar  [500ml - Family Pack]",
+            "description":"Succulent chunks of chicken, in an extremely rich gravy. A fabulous blend of creamy and savoury!",
+            "price":399
+        },
+        {
+            "image":"https://assets.box8.co.in/default-picture-shape/web/product/3811",
+            "type":"nonveg",
+            "item":"Dhaba-Style Mutton Curry [500ml - Family Pack]",
+            "description":"Melt-in-mouth mutton in a thick spiced gravy slowcooked homestyle to enrich flavors. We bet you'll go Oh-My-GOSHT!",
+            "price":599
+        }
+    ]
+}
