@@ -62,10 +62,8 @@ function CartForm() {
         onSubmit={onSubmit}
         validationSchema={validationSchema}
         initialValues={initialValues}
-        // enableReinitialize={true}
       >
         {(formik) => {
-          // console.log("formik", formik.values);
           return (
             <form className="cartForm_form" onSubmit={formik.handleSubmit}>
               <div className="cartForm_field">

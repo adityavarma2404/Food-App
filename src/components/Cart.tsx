@@ -3,8 +3,6 @@ import { useCartSelector } from "../store/hook";
 import CartForm from "./UI components/CartForm";
 import CartPayment from "./UI components/CartPayment";
 
-
-
 function Cart() {
   const sidePaths = ["Items","Details","Payment"]
   const activeOp = useCartSelector(state => state.cart.activeOption)

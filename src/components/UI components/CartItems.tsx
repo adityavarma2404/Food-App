@@ -36,7 +36,6 @@ function CartItems() {
         result = each.quantity;
       }
     });
-    // console.log("result", result);
     return result;
   }
 

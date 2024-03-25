@@ -49,11 +49,9 @@ function Search() {
             (word) => word.startsWith(val.toLowerCase()) && item
           );
         });
-        console.log("filteredItems", filteredItems);
         arr.push(...filteredItems);
       });
 
-    console.log("arr ====>", arr);
     if (arr.length === 0) {
       val.trim().length === 0
         ? setIsNoItemsFound(false)
@@ -73,8 +71,6 @@ function Search() {
     const val: string = searchRef.current!.value;
     debouncedOnSearchChange(val);
   };
-
-  console.log("isNoItemsFound", isNoItemsFound);
 
   return (
     <div className="search_container_body">

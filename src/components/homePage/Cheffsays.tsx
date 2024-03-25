@@ -1,5 +1,3 @@
-
-
 function Cheffsays() {
   return (
     <section className="Cheff_section_container">

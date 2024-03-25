@@ -15,8 +15,6 @@ function CartPayment() {
     // persist.flush()
   };
 
-  
-
   return (
     <div className="cartPayment_container">
       <div className="cartPayment_Para">
