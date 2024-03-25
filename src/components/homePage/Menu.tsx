@@ -1,8 +1,7 @@
 import items from "../../json/menu.json";
 import { useEffect, useState } from "react";
 import { sideOptions } from "../../json/sideMenu.json";
-import { addTocart } from "../../store/cart-slice";
-import { removefromCart } from "../../store/cart-slice";
+import { addTocart, removefromCart } from "../../store/cart-slice";
 import { useCartDispatch } from "../../store/hook";
 import { useCartSelector } from "../../store/hook";
 
@@ -20,15 +19,15 @@ function Menu() {
   const [menuSelected, setMenuSelected] = useState<string>("mini_meals");
   const cartItems = useCartSelector((state) => state.cart.items);
   const [cartItemsAddedList, setCartItemsAddedList] =
-  useState<cartItemsAddedList>([]);
+    useState<cartItemsAddedList>([]);
   const [activeButtonIndex, setActiveButtonIndex] =
-  useState<string>("mini_meals");
+    useState<string>("mini_meals");
   const menuItems: menuListItems | undefined =
-  items[menuSelected as keyof typeof items];
+    items[menuSelected as keyof typeof items];
   // as keyof typeof items: Asserts the type of menuSelected to be the same as the type of the keys (property names) of the items object.
 
   const dispatch = useCartDispatch();
-  
+
   function handleAddButton(item: menuListItem) {
     const props = {
       item: item.item,
@@ -36,12 +35,12 @@ function Menu() {
       price: item.price,
     };
     dispatch(addTocart(props));
-    }
-    function handleRemoveButton(item: string) {
-      const props = item;
-      dispatch(removefromCart(props));
-      }
-      
+  }
+  function handleRemoveButton(item: string) {
+    const props = item;
+    dispatch(removefromCart(props));
+  }
+
   function findQuantity(item: string): number {
     let result = 0;
     cartItems.map((each) => {
@@ -56,7 +55,7 @@ function Menu() {
     const filteredCartItems = cartItems.filter((item) => item.quantity > 0);
     setCartItemsAddedList(filteredCartItems.map((item) => item.item));
   }, [cartItems]);
-  
+
   return (
     <section className="menu_container">
       <div className="menu_sub_container mt-5">

@@ -1,6 +1,8 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import jsonItems from "../json/menu.json";
-import { menuListItems } from "./homePage/Menu";
+import { menuListItems, menuListItem } from "./homePage/Menu";
+import { addTocart, removefromCart } from "../store/cart-slice";
+import { useCartDispatch, useCartSelector } from "../store/hook";
 
 //we are passing parameter as ...args becase we dont know how many parameters are gonna pass from callback function(onSearchQueryChange()). 'args' implicitly has an 'any[]' type
 // function debounce<T extends (...args: any[]) => void>(
@@ -33,10 +35,17 @@ function debounceSearch(
   };
 }
 
+type cartItemsAddedList = string[];
+
 function Search() {
   const searchRef = useRef<HTMLInputElement>(null);
   const [isNoItemsFound, setIsNoItemsFound] = useState<boolean>(false);
   const [resultItems, setResultItems] = useState<menuListItems>([]);
+  const cartItems = useCartSelector((state) => state.cart.items);
+  const [cartItemsAddedList, setCartItemsAddedList] =
+    useState<cartItemsAddedList>([]);
+
+  const dispatch = useCartDispatch();
 
   function onSearchQueryChange(val: string) {
     // Perform search operation here
@@ -71,6 +80,34 @@ function Search() {
     const val: string = searchRef.current!.value;
     debouncedOnSearchChange(val);
   };
+
+  function handleAddButton(item: menuListItem) {
+    const props = {
+      item: item.item,
+      type: item.type,
+      price: item.price,
+    };
+    dispatch(addTocart(props));
+  }
+  function handleRemoveButton(item: string) {
+    const props = item;
+    dispatch(removefromCart(props));
+  }
+
+  function findQuantity(item: string): number {
+    let result = 0;
+    cartItems.map((each) => {
+      if (each.item === item) {
+        result = each.quantity;
+      }
+    });
+    return result;
+  }
+
+  useEffect(() => {
+    const filteredCartItems = cartItems.filter((item) => item.quantity > 0);
+    setCartItemsAddedList(filteredCartItems.map((item) => item.item));
+  }, [cartItems]);
 
   return (
     <div className="search_container_body">
@@ -113,9 +150,44 @@ function Search() {
                         <span className="menu_item_details2_price">
                           ₹ {each.price}
                         </span>
-                        <button className="menu_item_details2_button">
-                          Add
-                        </button>
+                        {cartItemsAddedList.includes(each.item) ? (
+                          <div className="menu_item_button_container">
+                            <button
+                              onClick={() => handleRemoveButton(each.item)}
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="25"
+                                height="25"
+                                fill="currentColor"
+                                className="bi bi-dash"
+                                viewBox="0 0 16 16"
+                              >
+                                <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8" />
+                              </svg>
+                            </button>
+                            <span>{findQuantity(each.item)}</span>
+                            <button onClick={() => handleAddButton(each)}>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="25"
+                                height="25"
+                                fill="currentColor"
+                                className="bi bi-plus"
+                                viewBox="0 0 16 16"
+                              >
+                                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                              </svg>
+                            </button>
+                          </div>
+                        ) : (
+                          <button
+                            onClick={() => handleAddButton(each)}
+                            className="menu_item_details2_button"
+                          >
+                            Add
+                          </button>
+                        )}
                       </div>
                     </div>
                   </li>
