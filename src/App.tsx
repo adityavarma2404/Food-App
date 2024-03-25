@@ -1,6 +1,6 @@
 import "./App.css";
 import "./media-queries.css";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, Navigate } from "react-router-dom";
 import HeaderHelp from "./components/HeaderHelp";
 import RootLayout from "./components/RootLayout";
 import { HomePage } from "./components/RootLayout";
@@ -23,6 +23,22 @@ const homeRouter = createBrowserRouter([
       { path: "/search", element: <Search /> },
       { path: "/cart", element: <Cart /> },
     ],
+  },
+  {
+    path: '*',
+    element: <Navigate to="/" replace/>
+  },
+  {
+    path: '/help/*',
+    element: <Navigate to="/help" replace/>
+  },
+  {
+    path: '/search/*',
+    element: <Navigate to="/search" replace/>
+  },
+  {
+    path: '/cart/*',
+    element: <Navigate to="/cart" replace/>
   },
 ]);
 
