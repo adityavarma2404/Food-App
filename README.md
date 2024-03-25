@@ -1,30 +1,9 @@
-# React + TypeScript + Vite
+Hello everyone!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a food delivery browser application which I developed using Typescript. The core benefit of TypeScript is static typing. It allows you to define the data types of variables, functions, and properties. This improves code clarity, maintainability, and helps catch errors early in the development process.
 
-Currently, two official plugins are available:
+Addition to Typescript I used Redux toolkit for state management for adding the food items from menu section/search page, managing quantitiies from cart. To ensure data persistency, I integrated the redux-persist library, which conveniently stores data in the local storage. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I utilized the features of react-router-dom for navigation and for handling the invalid URL path's. Furthermore, I implemented forms using the Formik library along with Yup for validation. This combination simplified form handling and ensured data persistency. To store form data locally, I utilized formik-persist. 
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+This application is designed primarily for browser experience. As such, we redirect mobile users to the mobile app for an optimal experience.
