@@ -4,23 +4,6 @@ import { menuListItems, menuListItem } from "./homePage/Menu";
 import { addTocart, removefromCart } from "../store/cart-slice";
 import { useCartDispatch, useCartSelector } from "../store/hook";
 
-//we are passing parameter as ...args becase we dont know how many parameters are gonna pass from callback function(onSearchQueryChange()). 'args' implicitly has an 'any[]' type
-// function debounce<T extends (...args: any[]) => void>(
-//   func: T,
-//   delay: number
-// ): T {
-//   //   typeof setTimeout: This expression evaluates to the type of the setTimeout function itself. It doesn't call the function, but rather gets its type information. ReturnType<typeof setTimeout>: This is a generic utility type provided by TypeScript. It takes the type of a function (typeof setTimeout in this case) and returns the type of the value that the function returns.
-//   let timeoutId: ReturnType<typeof setTimeout>;
-
-//   return function (this: ThisParameterType<T>, ...args: Parameters<T>) {
-//     clearTimeout(timeoutId);
-//     timeoutId = setTimeout(() => {
-//       func.apply(this, args);
-//     }, delay);
-//   } as T;
-// }
-
-//here we are returning arrow function, so return type is declared as '(...args: any[]) => void'
 function debounceSearch(
   cb: (...args: any[]) => void,
   delay: number
@@ -73,7 +56,6 @@ function Search() {
     }
   }
 
-  // const debouncedOnSearchQueryChange = debounce(onSearchQueryChange, 1000);
   const debouncedOnSearchChange = debounceSearch(onSearchQueryChange, 1000);
 
   const handleSearchInput = () => {

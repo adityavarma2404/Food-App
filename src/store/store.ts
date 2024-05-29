@@ -29,7 +29,6 @@ const persistedReducer = persistReducer(persistConfig, reducer);
 
 export const store = configureStore({
   reducer: persistedReducer,
-//   If using Redux-Persist, you should specifically ignore all the action types it dispatches:
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({
       serializableCheck: {

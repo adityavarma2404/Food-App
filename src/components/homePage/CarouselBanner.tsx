@@ -1,8 +1,8 @@
 import Carousel from "react-bootstrap/Carousel";
-import Recommendations from "../../assets/recommendations.png";
+import Recommendations from "../../../public/images/recommendations.png";
 import { useRef } from "react";
-import sandwitch from "../../assets/sandwitch.png";
-import starter from "../../assets/starters.png";
+import sandwitch from "../../../public/images/sandwitch.png";
+import starter from "../../../public/images/starters.png";
 
 type handle = (index: number) => void;
 

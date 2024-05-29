@@ -1,4 +1,4 @@
-import logo from "../assets/logo.png";
+import logo from "../../public/images/logo.png";
 import { Link } from "react-router-dom";
 import { useCartSelector } from "../store/hook";
 import { useRef } from "react";
